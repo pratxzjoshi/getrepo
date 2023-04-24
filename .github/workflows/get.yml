@@ -25,7 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Compile and run Java File
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+         java-version: '11'
+      - name: Build and Run Java File
         run: |
-          javac get.java
-          java get.java
+         javac get.java
+         java get
