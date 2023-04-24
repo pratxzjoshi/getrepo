@@ -28,4 +28,4 @@ jobs:
       - name: Compile and run Java File
         run: |
           javac get.java
-          java get
+          java get.java
