@@ -28,5 +28,5 @@ jobs:
          java-version: '11'
       - name: Build and Run Java File
         run: |
-         javac get.java
-         java get
+         javac getrepo/.github/get.java
+         java getrepo/.github/get
