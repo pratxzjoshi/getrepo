@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public Class Imp {
+public class Imp {
   public static void main(String[] args) {
     ArrayList<String> fruits = new ArrayList<String>();
 
